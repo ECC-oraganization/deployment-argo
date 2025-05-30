@@ -9,6 +9,6 @@ spec:
   ports:
     - protocol: TCP
       port: 8080            # Port exposed internally in the cluster
-      targetPort: 808080    # Port your Java app listens on
-      nodePort: 30080       # External port exposed on the worker node (between 30000–32767)
+      targetPort: 8080    # Port your Java app listens on
+      nodePort: 30180       # External port exposed on the worker node (between 30000–32767)
   type: NodePort
